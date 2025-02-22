@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepak's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Typed.js Library -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Deepak's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Document.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="firstsection">
+            <div class="leftsection">
+                <h1>Hi, My Name Is <span class="purple">Deepak</span></h1>
+                <h2>I Am a Passionate</h2>
+                <p><span id="element"></span></p>
+                <div class="resume">
+                 <button class="btn">RESUME</button>
+                <button class="btn">GITHUB</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="GOKU.jpg" alt="Deepak's Portfolio Photo">
+            </div>
+        </section>
+
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['WEB DEVELOPER', 'GRAPHIC DESIGNER', 'DIGITAL MARKETING EXPERT'],
+                typeSpeed: 50,
+                backSpeed: 30,
+                loop: true
+            });
+        </script>
+
+        <hr>
+
+        <!-- Skills Section -->
+        <section class="secondsection">
+            <h1>Skills Learned</h1>
+            <div class="box">
+                <div class="verticalbox">
+                    <div class="verticaltitle">
+                        <strong>Python, MySQL</strong> (2019-2020)
+                    </div>
+                </div>
+                <div class="verticalbox">
+                    <div class="verticaltitle">
+                        <strong>C, C++</strong> (2022)
+                    </div>
+                </div>
+                <div class="verticalbox">
+                    <div class="verticaltitle">
+                        <strong>Data Structures & Algorithms (C++)</strong> (2023)
+                    </div>
+                </div>
+                <div class="verticalbox">
+                    <div class="verticaltitle">
+                        <strong>Web Development (HTML, CSS, JavaScript)</strong> (2024-2025)
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Deepak's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul class="footer-list">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

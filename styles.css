@@ -1,0 +1,227 @@
+/* General Styles */
+body {  
+    background-color: rgb(0, 0, 33);  
+    color: white;  
+    font-family: "Poppins", sans-serif;  
+    margin: 0; /* Removes default body margin */
+}  
+
+/* Navigation Bar */
+nav {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    height: 80px;  
+    background-color: rgb(18, 18, 62);  
+    padding: 0 50px; /* Adds space on the sides */
+}  
+
+nav ul {  
+    display: flex;  
+    justify-content: center;  
+    padding: 0;  
+    margin: 0;  
+}  
+
+nav li {  
+    list-style: none;  
+    margin: 0 23px;  
+}  
+
+nav ul li a {  
+    text-decoration: none;  
+    color: white;  
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}  
+
+nav ul li a:hover {  
+    color: lavender;  
+}  
+
+.left {  
+    font-size: 1.5rem;  
+    font-weight: bold;  
+}  
+
+.right {  
+    font-size: 0.9rem;  
+}  
+
+/* First Section */
+.firstsection {  
+    display: flex;  
+    justify-content: space-around;  
+    align-items: center;  
+    margin: 80px 50px; /* Adjusted margin */
+    min-height: 70vh; /* Ensures it takes enough space */
+}  
+
+.leftsection {  
+    font-size: 1rem;  
+    width: 50%; /* Adjust width for better layout */
+}  
+
+.rightsection {  
+    width: 40%;  
+    text-align: center;  
+}  
+
+.rightsection img {  
+    max-width: 80%;  
+    height: auto;  
+    border-radius: 10px; /* Adds a smooth corner to images */
+}  
+
+/* Styling for Typed.js Element */
+#element {  
+    font-weight: bold;  
+    color: cyan;  
+}  
+
+.purple {  
+    color: purple; /* Applied to text instead of background */
+}  
+
+/* Horizontal Line */
+hr {  
+    border: 0;  
+    background-color: darkblue;  
+    height: 3px;  
+    margin: 20px auto; /* Centers it */
+    width: 80%;
+}  
+
+/* Second Section */
+.secondsection {
+    max-width: 80vw;
+    margin: 65px auto;
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Skills Box */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 85vw;
+    height: 2px;
+    margin: 56px auto;
+}
+
+/* Vertical Timeline */
+.verticalbox {
+    background-color: white;
+    height: 8vw;
+    width: 2px;
+    margin: 0 70px;
+}
+
+.verticaltitle {
+    margin-top: 8.5vw;
+    font-style: italic;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* Footer Section */
+footer {
+    background-color: #002348;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Sticky Footer Fix */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; /* Pushes footer down */
+}
+
+/* Footer Content */
+.footer {
+    margin-top: auto;
+}
+
+.footer h3 {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer-list {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.footer-list li {
+    list-style: none;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer-list li a:hover {
+    color: lavender;
+}
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allows wrapping for responsiveness */
+    gap: 20px; /* Space between buttons */
+    margin: 50px 0px;
+}
+    
+.btn{
+    height: 30px; /* Increased he */
+    width: 50px; /* Increased width */
+    background-color: #000121; /* Visible purple background */
+    border: 2px solid white;
+    border-radius: 10px; /* Rounded corners */
+    color: white;
+    font-size: 0.5rem; /* Readable text */
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.btn:hover {
+    background-color: #5a0bb1;
+    transform: scale(1.05);
+}
+
+    

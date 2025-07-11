@@ -17,5 +17,6 @@ body {
   margin: 0;
   display: flex;
   text-decoration: inherit;
+  min-height: 400vh;
 }
 

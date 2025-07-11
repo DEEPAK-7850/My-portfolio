@@ -1,11 +1,13 @@
-import Header from './components/header'
+
 import './App.css'
 import Hero from './components/Hero'
+import Navbar from './components/Navbar'
+
 
 function App(props) {
   return (
     <>
-      <Header/>
+      <Navbar/>
       <Hero/>
     </>
   )
